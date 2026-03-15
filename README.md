@@ -1,4 +1,4 @@
-# 📊 CashDash — Finance KPI Dashboard
+#  CashDash — Finance KPI Dashboard
 
 CashDash is a beginner-friendly **Power BI Business Intelligence project** that tracks financial performance using Actual vs Target metrics.
 
@@ -8,11 +8,11 @@ It demonstrates data cleaning, modeling, and DAX calculations to create an inter
 
 ##  Features
 
-- 📈 Actual vs Target tracking
-- 📅 Year-to-Date (YTD) calculations
-- 📊 Variance % analysis
-- 🧠 Smart narrative insights
-- 📉 Trend sparklines and lipstick charts
+-  Actual vs Target tracking
+-  Year-to-Date (YTD) calculations
+-  Variance % analysis
+-  Smart narrative insights
+-  Trend sparklines and lipstick charts
 
 ---
 
@@ -27,16 +27,16 @@ It demonstrates data cleaning, modeling, and DAX calculations to create an inter
 
 ##  Workflow
 
-### 1️⃣ Data Transformation
+### 1️) Data Transformation
 - Cleaned raw financial data using Power Query
 - Used **Unpivot** to convert wide tables into long format
 
-### 2️⃣ Data Modeling
+### 2️) Data Modeling
 - Built a **Star Schema**
 - Fact tables: Sales
 - Dimension tables: Calendar, Teams
 
-### 3️⃣ DAX Measures
+### 3️) DAX Measures
 
 ```DAX
 Total Sales Actual = SUM(Actual[Value])
